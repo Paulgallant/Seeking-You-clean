@@ -1,8 +1,8 @@
 import { describe, it, expect, vi } from 'vitest';
 import { render, screen } from '@testing-library/react';
 import { BrowserRouter } from 'react-router-dom';
-import Navbar from '../../components/Navbar';
-import * as AuthContext from '../../contexts/AuthContext';
+import Navbar from '../components/Navbar';
+import * as AuthContext from '../contexts/AuthContext';
 
 // Mock the auth context
 vi.mock('../../contexts/AuthContext', () => ({
